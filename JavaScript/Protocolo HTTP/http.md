@@ -32,4 +32,14 @@ o HTTPS é uma extensão do HTTP. O “S” vem da palavra “secure” (“segu
 
 É por isso que a maioria dos e-commerces têm sites em HTTPS e o próprio navegador informa que é seguro digitar dados pessoais caso deseje realizar alguma ação, como uma compra online.
 
+### Request Method
++ Get: O método GET solicita a representação de um recurso específico. Requisições utilizando o método GET devem retornar apenas dados.
++ Head: O método head solicita uma resposta de forma idêntica ao método get, porém sem conter o corpo da resposta.
++ Post: O método post é utilizado para submeter uma entidade a um recurso específico, frequentemente causando uma mudança no estado do recurso ou efeitos colaterais no servidor.
++ Put: O método put substitui todas as atuais representações do recurso de destino pela carga de dados da requisição.
++ Delete: o método delete remove um recurso específico.
++ Connect: O método connect estabelece um túnel para o servidor identificado pelo recurso de destino.
++ Options: O método options é usado para descrever as opções de comunicação com o recurso de destino.
++ Trace: O método trace executa um teste de chamada loop-back junto com o cmainho para o recurso de destino.
++ Patch: O método Patch é utilizado para aplicar modificações parciais em um recurso
  
